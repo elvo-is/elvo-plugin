@@ -1,0 +1,16 @@
+{
+  "name": "elvo",
+  "displayName": "Elvo",
+  "version": "1.0.0",
+  "description": "Work your Elvo customer support inbox from a conversation: see what waits on you, draft replies with facts from your own systems, read team performance, close knowledge gaps and keep the help center current. Drafts by default; nothing is sent to a customer unless you ask.",
+  "author": {
+    "name": "Elvo lausnir ehf.",
+    "email": "elvo@elvo.is",
+    "url": "https://elvo.is"
+  },
+  "homepage": "https://elvo.is/help/connect-ai-assistant",
+  "privacyPolicyUrl": "https://elvo.is/privacy-policy",
+  "repository": "https://github.com/elvo-is/elvo-plugin",
+  "license": "MIT",
+  "keywords": ["customer-support", "helpdesk", "inbox", "tickets", "help-center", "knowledge-base", "icelandic"]
+}

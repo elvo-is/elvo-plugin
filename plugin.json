@@ -1,0 +1,60 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "elvo",
+  "version": "1.0.0",
+  "description": "Work your Elvo customer support inbox from a conversation: see what waits on you, draft replies with facts from your own systems, read team performance, close knowledge gaps and keep the help center current. Drafts by default; nothing is sent to a customer unless you ask.",
+  "author": {
+    "name": "Elvo lausnir ehf.",
+    "email": "elvo@elvo.is",
+    "url": "https://elvo.is"
+  },
+  "homepage": "https://elvo.is/help/connect-ai-assistant",
+  "repository": "https://github.com/elvo-is/elvo-plugin",
+  "license": "MIT",
+  "keywords": [
+    "customer-support",
+    "helpdesk",
+    "inbox",
+    "tickets",
+    "help-center",
+    "knowledge-base",
+    "icelandic"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Elvo",
+        "shortDescription": "Your support inbox, in chat",
+        "longDescription": "Elvo is a customer support inbox for email, web chat, Messenger, Instagram, WhatsApp and phone. This plugin connects your Elvo account and adds workflows for support agents and managers.\n\nAsk what waits on you or your team, get reply drafts that use the customer's orders, invoices and bookings from the systems your company connected to Elvo, read a plain-language performance report, see what the AI could not answer and fix it, and write, translate and publish help-center articles.\n\nThe plugin acts as you, with exactly your access in Elvo. You choose read only or read and write when you sign in. Replies are saved as drafts for a person to review; sending to a customer needs a separate permission and an explicit request. Settings, billing and user management stay in Elvo.",
+        "developerName": "Elvo lausnir ehf.",
+        "category": "Productivity",
+        "capabilities": [
+          "Search and read conversations and contacts",
+          "Draft replies and internal notes",
+          "Update status, assignee, tags and snooze",
+          "Read customer records from connected systems",
+          "Team performance reports",
+          "Write and publish help-center articles"
+        ],
+        "websiteURL": "https://elvo.is",
+        "supportURL": "https://elvo.is/help/connect-ai-assistant",
+        "privacyPolicyURL": "https://elvo.is/privacy-policy",
+        "termsOfServiceURL": "https://elvo.is/terms-of-service",
+        "defaultPrompt": [
+          "What waits on me in Elvo right now?",
+          "Draft replies for my three oldest open conversations.",
+          "How did the support team do last week?"
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      },
+      "review": {
+        "commerce": false,
+        "commerce_description": "This plugin does not sell products or process payments."
+      },
+      "publication": {
+        "release_notes": "First release: the Elvo connector and eight skills for support teams."
+      }
+    }
+  }
+}

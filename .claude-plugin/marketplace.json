@@ -1,0 +1,17 @@
+{
+  "name": "elvo",
+  "owner": {
+    "name": "Elvo lausnir ehf.",
+    "email": "elvo@elvo.is"
+  },
+  "metadata": {
+    "description": "The official Elvo plugin: the Elvo connector and skills for support teams."
+  },
+  "plugins": [
+    {
+      "name": "elvo",
+      "source": "./",
+      "description": "Work your Elvo customer support inbox from a conversation: triage, reply drafts, reports, knowledge gaps and the help center."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "elvo": {
+      "type": "http",
+      "url": "https://elvo.is/mcp"
+    }
+  }
+}
